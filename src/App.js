@@ -11,6 +11,7 @@ const App = () => {
       <Navbar/>
     </Router>
     <ItemListContainer/>
+    <CartWidgets/>
     </>
   )
 }
