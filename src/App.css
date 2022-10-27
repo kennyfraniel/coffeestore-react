@@ -1,0 +1,12 @@
+.header {
+  height: 100px;
+  background-color: cyan;
+}
+
+h1 {
+  color: red
+}
+
+#contenido {
+  color: green
+}
