@@ -18,7 +18,6 @@ export const navbar = () => {
                         <Link className="nav-link">INICIO</Link>
                         <Link className="nav-link" >PRODUCTOS</Link>
                         <Link className="nav-link">NOSOTROS</Link>
-                        <i className="bi bi-cart"></i>
                     </div>
                 </div>
             </div>
