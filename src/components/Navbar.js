@@ -19,6 +19,7 @@ export const navbar = () => {
                         <Link className="nav-link" >PRODUCTOS</Link>
                         <Link className="nav-link">NOSOTROS</Link>
                     </div>
+                    <CartWidgets/>
                 </div>
             </div>
             

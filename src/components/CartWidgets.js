@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {DiAndroid } from 'react-icons/fa';
+import {AiOutlineShoppingCart} from 'react-icons/ai';
 
 const CartWidgets = () => {
   return (
-    <DiAndroid/>
+    <AiOutlineShoppingCart/>
   )
 }
 

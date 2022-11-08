@@ -11,9 +11,8 @@ const App = () => {
       <Navbar/>
     </Router>
     <ItemListContainer/>
-    <CartWidgets/>
     </>
   )
 }
 
-export default App;
+export default App; 
