@@ -31,7 +31,12 @@ header a {
   font-weight: bold;
   display: block;
 }
+.logotipo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
 
+}
 .search-area {
   display: flex;
   flex-direction: column;
@@ -80,7 +85,7 @@ header a {
   width: 100%;
   display: flex;
   overflow: hidden;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-bottom: #d8dee6 2px solid;
   text-decoration: none;
 }
@@ -90,7 +95,7 @@ header a {
   height: 500px;
 }
 img {
-  height: 200px;
+  height: 300px;
 }
 
 .list-info {
