@@ -1,4 +1,6 @@
 import {useState} from 'react'
+import { Link } from 'react-router-dom';
+import { Route } from 'wouter';
 
 const ItemListContainer = (props) => {
   const [rate, setRate] = useState(0);
@@ -18,9 +20,11 @@ const ItemListContainer = (props) => {
       </div>
       <div className='list-info'>
       <h3 className='list-info h3'>{props.title}</h3>
-      <h4 className="list-info h4">{props.precio}</h4>
-      <span>Este producto tiene {rate} puntos</span> - <button onClick={rateProducto}>Puntuá este producto</button> <button onClick={disrateProducto}>Despuntuá este producto</button>
-      <p className='list-info p'>{props.description}</p>
+      <h4 className='list-info h4'>{props.precio}</h4>
+      <Link to='/ItemDetail'><button>Mas detalles!</button></Link>
+      <hr></hr>
+      <span>Agregar al carrito {rate} </span> - <button onClick={rateProducto}>+</button> <button onClick={disrateProducto}>-</button> <Link to='/Cart'><button>Agregar al carrito</button></Link> 
+      <p className='list-info h4'>{props.description}</p>
       <button onClick ={props.deleteProducto}>Borrar este producto</button>
       </div>
     </div>
